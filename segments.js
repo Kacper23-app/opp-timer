@@ -1,11 +1,8 @@
-// Baza odcinków OPP. Na start pozostawiamy ją pustą, aby nie podawać niezweryfikowanych lokalizacji.
-// Każdy odcinek wymaga dokładnej ścieżki GPS od początku do końca, w kolejności przejazdu.
-// Przykładowa struktura (współrzędne poniżej są wyłącznie atrapami, NIE są prawdziwym OPP):
-// window.OPP_SEGMENTS = [{
-//   id: "przykladowy-odcinek",
-//   name: "Nazwa odcinka – kierunek",
-//   startRadius: 100,
-//   endRadius: 100,
-//   path: [{lat: 52.0000, lon: 21.0000}, {lat: 52.0010, lon: 21.0020}]
-// }];
+// BAZA OPP — do uzupełnienia WYŁĄCZNIE zweryfikowanymi lokalizacjami.
+// Brak wpisów oznacza, że automatyczne wykrywanie OPP nie działa.
+// Każdy kierunek jazdy musi mieć osobny wpis i path w kolejności przejazdu.
+// Przykładowy schemat (NIE jest prawdziwym odcinkiem):
+// { name:"Nazwa i kierunek", limitKmh:120, distanceMeters:10000,
+//   path:[{lat:52.0,lon:21.0},{lat:52.01,lon:21.01}],
+//   startRadius:65,endRadius:65,corridorMeters:90 }
 window.OPP_SEGMENTS = [];

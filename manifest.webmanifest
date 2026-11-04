@@ -2,9 +2,9 @@
   "name": "OPP TIMER",
   "short_name": "OPP TIMER",
   "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#101827",
   "theme_color": "#101827",
-  "lang": "pl",
-  "description": "Prototyp pomocniczego licznika czasu przejazdu przez OPP."
+  "description": "Prototyp licznika minimalnego czasu przejazdu OPP"
 }
