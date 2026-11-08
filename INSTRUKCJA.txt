@@ -1,12 +1,14 @@
-OPP TIMER 4.1 — MAPA OPP WARSZAWA I OKOLICE
+OPP TIMER 4.2 — WARSZAWA
 
-1. Rozpakuj ZIP.
-2. W repozytorium GitHub opp-timer podmień: index.html, segments.js, manifest.webmanifest, sw.js.
-3. DODAJ nowy plik opp-map.js w głównym katalogu (obok index.html).
-4. Zatwierdź Commit changes.
-5. Otwórz https://kacper23-app.github.io/opp-timer/?v=4.1 w nowej karcie/incognito.
-6. Kliknij Pokaż OPP, żeby zobaczyć wszystkie znaczniki.
+Zaktualizuj pliki index.html, segments.js, opp-map.js, manifest.webmanifest i sw.js
+w katalogu głównym repozytorium GitHub opp-timer. Zatwierdź Commit changes.
+Otwórz https://kacper23-app.github.io/opp-timer/?v=42 w karcie incognito.
 
-UWAGA: mapa pokazuje 7 orientacyjnych REJONÓW OPP Warszawy i aglomeracji, NIE dokładne punkty kamer ani przebieg dróg. Przerywane linie są tylko orientacyjne. Nie gwarantuje to kompletności wszystkich lokalizacji w granicach miasta. Baza GPS segments.js pozostaje pusta — licznik rzeczywistych OPP nie jest aktywny. Nie używaj do prowadzenia ani unikania mandatów.
-
-Źródła: https://naodcinku.pl/droga-ekspresowa/s2/ oraz https://naodcinku.pl/droga-ekspresowa/s8/ i mapa CANARD.
+NOWOŚĆ: karta S2 — tunel POW, tryb eksperymentalny.
+Kliknij 'Przygotuj licznik tunelu S2' przed jazdą, następnie ręcznie uruchom
+odliczanie na wjeździe i zakończ po wyjeździe (obsługa przez pasażera).
+Orientacyjne parametry: 2,52 km, 80 km/h, około 01:54.
+Nie jest to automatyczne wykrywanie bramownic ani potwierdzony pomiar CANARD.
+Przy ograniczeniach zmiennych stosuj aktualne znaki drogowe.
+GPS w tunelu może nie działać. Dane OPP na mapie nadal są orientacyjne.
+Baza automatycznego GPS nadal jest pusta. Tryb DEMO pozostaje dostępny.
