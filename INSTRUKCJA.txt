@@ -1,0 +1,28 @@
+OPP TIMER 3.0 — AKTUALIZACJA NA SAMSUNGU
+
+1. Rozpakuj ZIP w aplikacji Moje pliki.
+2. Otwórz github.com i repozytorium opp-timer.
+3. Podmień w GŁÓWNYM katalogu repozytorium cztery pliki:
+   index.html, segments.js, manifest.webmanifest, sw.js
+   (INSTRUKCJA.txt nie jest potrzebny na stronie).
+4. Zatwierdź zmiany przyciskiem Commit changes.
+5. Poczekaj na GitHub Pages, następnie otwórz:
+   https://kacper23-app.github.io/opp-timer/?v=3
+6. Kliknij „Uruchom demonstrację”.
+7. Kliknij „Rozpocznij OPP TIMER”.
+8. Kliknij „Symuluj wjazd na OPP” — licznik powinien zacząć od 05:00.
+9. Kliknij „Symuluj koniec OPP” albo „Zakończ demonstrację”.
+
+ZASADA DZIAŁANIA
+Przy zbliżaniu się do początku odcinka (domyślnie 500 m) pojawia się przycisk.
+Kliknięcie uzbraja licznik, ale NIE uruchamia odliczania.
+Odliczanie zaczyna się po GPS-owym wykryciu przekroczenia początku odcinka.
+
+OGRANICZENIA
+Baza OPP jest PUSTA. Automatyczne wykrywanie prawdziwych OPP nie działa.
+Nie ma jeszcze mapy ani nawigacji. Wykrywanie wjazdu/wyjazdu wymaga
+prawdziwych, sprawdzonych współrzędnych i testów drogowych; obecny algorytm
+jest eksperymentalny i może nie rozpoznać wjazdu/wyjazdu.
+GPS w przeglądarce może nie działać przy zablokowanym ekranie.
+Nie obsługuj telefonu podczas prowadzenia. Zero na liczniku nie oznacza
+końca OPP ani gwarancji uniknięcia mandatu.
