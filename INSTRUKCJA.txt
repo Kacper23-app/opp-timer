@@ -1,19 +1,12 @@
-OPP TIMER 4.0 — WARSZAWA
+OPP TIMER 4.1 — MAPA OPP WARSZAWA I OKOLICE
 
-AKTUALIZACJA NA SAMSUNGU:
-1. Rozpakuj ZIP w aplikacji Moje pliki.
-2. Na GitHub otwórz repozytorium opp-timer, gałąź main.
-3. W GŁÓWNYM katalogu repozytorium podmień index.html, segments.js, manifest.webmanifest i sw.js.
-   Nie wgrywaj ich do nowego podfolderu. W razie konfliktu nazw zastąp stare pliki lub edytuj je.
-4. Zatwierdź zmiany (Commit changes). Poczekaj kilka minut na publikację GitHub Pages.
-5. Otwórz https://kacper23-app.github.io/opp-timer/?v=4
-6. Powinna być widoczna mapa Warszawy, przycisk GPS i tryb demonstracyjny.
-7. W DEMO naciśnij „Uruchom demonstrację”, a następnie „Symuluj wjazd na OPP”.
+1. Rozpakuj ZIP.
+2. W repozytorium GitHub opp-timer podmień: index.html, segments.js, manifest.webmanifest, sw.js.
+3. DODAJ nowy plik opp-map.js w głównym katalogu (obok index.html).
+4. Zatwierdź Commit changes.
+5. Otwórz https://kacper23-app.github.io/opp-timer/?v=4.1 w nowej karcie/incognito.
+6. Kliknij Pokaż OPP, żeby zobaczyć wszystkie znaczniki.
 
-UWAGA:
-- To nie jest jeszcze pełna nawigacja Google Maps / Yanosik. Nie ma wyznaczania tras ani raportów o korkach.
-- Baza rzeczywistych OPP w segments.js jest PUSTA. Bez zweryfikowanych danych nie wykryje prawdziwego OPP.
-- Mapa korzysta z OpenStreetMap i Leaflet, wymaga internetu.
-- W przeglądarce GPS może przestać działać po zablokowaniu ekranu.
-- Mechanizm startu/końca OPP wymaga testów w terenie i nie gwarantuje dokładności pomiaru.
-- Nigdy nie obsługuj telefonu podczas prowadzenia i przestrzegaj ograniczeń prędkości.
+UWAGA: mapa pokazuje 7 orientacyjnych REJONÓW OPP Warszawy i aglomeracji, NIE dokładne punkty kamer ani przebieg dróg. Przerywane linie są tylko orientacyjne. Nie gwarantuje to kompletności wszystkich lokalizacji w granicach miasta. Baza GPS segments.js pozostaje pusta — licznik rzeczywistych OPP nie jest aktywny. Nie używaj do prowadzenia ani unikania mandatów.
+
+Źródła: https://naodcinku.pl/droga-ekspresowa/s2/ oraz https://naodcinku.pl/droga-ekspresowa/s8/ i mapa CANARD.
