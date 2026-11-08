@@ -1,14 +1,23 @@
-OPP TIMER 4.2 — WARSZAWA
+OPP TIMER 4.3 — WARSZAWA
 
-Zaktualizuj pliki index.html, segments.js, opp-map.js, manifest.webmanifest i sw.js
-w katalogu głównym repozytorium GitHub opp-timer. Zatwierdź Commit changes.
-Otwórz https://kacper23-app.github.io/opp-timer/?v=42 w karcie incognito.
+CO NOWE:
+- test sekwencji: zbliżanie 400 m -> przygotuj -> symuluj wjazd -> odliczanie -> koniec;
+- diagnostyka pozycji GPS i dokładności;
+- mapa i 7 orientacyjnych rejonów OPP z wersji 4.1;
+- eksperymentalny ręczny licznik tunelu S2 oraz dotychczasowe DEMO.
 
-NOWOŚĆ: karta S2 — tunel POW, tryb eksperymentalny.
-Kliknij 'Przygotuj licznik tunelu S2' przed jazdą, następnie ręcznie uruchom
-odliczanie na wjeździe i zakończ po wyjeździe (obsługa przez pasażera).
-Orientacyjne parametry: 2,52 km, 80 km/h, około 01:54.
-Nie jest to automatyczne wykrywanie bramownic ani potwierdzony pomiar CANARD.
-Przy ograniczeniach zmiennych stosuj aktualne znaki drogowe.
-GPS w tunelu może nie działać. Dane OPP na mapie nadal są orientacyjne.
-Baza automatycznego GPS nadal jest pusta. Tryb DEMO pozostaje dostępny.
+WAŻNE:
+Baza rzeczywistych odcinków GPS (segments.js) jest PUSTA.
+Nie ma jeszcze potwierdzonych współrzędnych bramownic i przebiegu jezdni.
+Nowy test zbliżania jest FIKCYJNY i nie używa GPS.
+Mapa OPP jest wyłącznie poglądowa.
+Nie używaj prototypu do podejmowania decyzji o prędkości ani nie obsługuj telefonu podczas jazdy.
+
+INSTALACJA NA SAMSUNGU:
+1. Pobierz i wyodrębnij ZIP.
+2. Wgraj do głównego katalogu repozytorium opp-timer pliki:
+   index.html, segments.js, opp-map.js, manifest.webmanifest, sw.js.
+3. Zatwierdź Commit changes na GitHub.
+4. Poczekaj na publikację i otwórz w nowej karcie incognito:
+   https://kacper23-app.github.io/opp-timer/?v=43
+5. Poszukaj sekcji '4.3 • WYKRYWANIE ZBLIŻANIA — TEST'.
